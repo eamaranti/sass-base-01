@@ -1,0 +1,18 @@
+a {
+  color: blue; }
+  a:hover {
+    color: red; }
+  a:active {
+    color: violet; }
+  a:visited {
+    color: green; }
+  a .boton {
+    display: block;
+    border: 1px solid #ff0000; }
+  a.vinculo {
+    color: #00ff00; }
+  a#boton1 {
+    color: black; }
+
+body {
+  background-color: #999; }

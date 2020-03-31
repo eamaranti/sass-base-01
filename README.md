@@ -1,2 +1,3 @@
-# sass-base-01
-estructura base para proyecto sass
+# sass-base
+
+proyecto base para sass

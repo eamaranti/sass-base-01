@@ -1,0 +1,27 @@
+{
+  "name": "ejercicio-latam-remoto1",
+  "version": "1.0.0",
+  "description": "primer ejercicio remoto colaborativo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass-chokidar ./assets/sass -o ./public/css --watch",
+    "server": "browser-sync start --server --files='./*.html,./public/css/*.css'",
+    "buildsass": "node-sass-chokidar ./assets/sass -o ./public/css",
+    "start": "npm run scss & npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eamaranti/latam-ejercicio-remoto1.git"
+  },
+  "author": "edmundo amaranti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eamaranti/latam-ejercicio-remoto1/issues"
+  },
+  "homepage": "https://github.com/eamaranti/latam-ejercicio-remoto1#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "node-sass-chokidar": "^1.4.0"
+  }
+}

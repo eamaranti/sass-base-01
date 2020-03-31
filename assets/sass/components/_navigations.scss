@@ -1,0 +1,22 @@
+a{
+    color:$sonic-silver;
+    &:hover{
+        color:$caca;
+    }
+    &:active{
+        color:$primary;
+    }
+    &:visited{
+        color:$raspberry-pink;
+    }
+    .boton{
+        display:block;
+        border: 1px solid #ff0000;
+    }
+    &.vinculo{
+        color:#00ff00;
+    }
+    &#boton1{
+        color:black;
+    }
+}
